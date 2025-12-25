@@ -99,8 +99,18 @@ Architecture Overview
 	•	This is a simplified MVP implementation
 	•	Authentication & access sharing can be extended in future iterations
 
+• Architecture Diagram
+React Frontend
+     |
+     | REST API
+     v
+Node.js + Express
+     |
+     v
+SQLite Database
+
 ARCHITECTURE EXPLANATION
-System Architecture
+• System Architecture
 
 The application follows a simple client-server architecture.
 	•	Frontend (ReactJS)
@@ -110,7 +120,7 @@ Provides RESTful APIs for storing and retrieving health records.
 	•	Database (SQLite)
 Stores health records persistently in a lightweight relational database.
 
-Data Flow
+• Data Flow
 
 User Browser
    ↓
